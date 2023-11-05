@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MTS_ChromeHistoryEmail" vcs="Git" />
   </component>
 </project>
