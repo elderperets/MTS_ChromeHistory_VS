@@ -18,30 +18,30 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="code\exec.cpp">
+    <ClCompile Include="MTS_ChromeHistoryEmail\exec.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="code\sqlite\sqlite3.c">
+    <ClCompile Include="MTS_ChromeHistoryEmail\sqlite\sqlite3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="code\sqlite\shell.c">
+    <ClCompile Include="MTS_ChromeHistoryEmail\sqlite\shell.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="code\sqlite\sqlite3.h">
+    <ClInclude Include="MTS_ChromeHistoryEmail\sqlite\sqlite3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="code\sqlite\sqlite3rc.h">
+    <ClInclude Include="MTS_ChromeHistoryEmail\sqlite\sqlite3rc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="code\sqlite\sqlite3ext.h">
+    <ClInclude Include="MTS_ChromeHistoryEmail\sqlite\sqlite3ext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="code\exec.h">
+    <ClInclude Include="MTS_ChromeHistoryEmail\exec.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="code\config.h">
+    <ClInclude Include="MTS_ChromeHistoryEmail\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">

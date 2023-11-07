@@ -138,17 +138,17 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="code\exec.cpp" />
-    <ClCompile Include="code\sqlite\shell.c" />
-    <ClCompile Include="code\sqlite\sqlite3.c" />
+    <ClCompile Include="MTS_ChromeHistoryEmail\exec.cpp" />
+    <ClCompile Include="MTS_ChromeHistoryEmail\sqlite\shell.c" />
+    <ClCompile Include="MTS_ChromeHistoryEmail\sqlite\sqlite3.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="code\config.h" />
-    <ClInclude Include="code\exec.h" />
-    <ClInclude Include="code\sqlite\sqlite3.h" />
-    <ClInclude Include="code\sqlite\sqlite3ext.h" />
-    <ClInclude Include="code\sqlite\sqlite3rc.h" />
+    <ClInclude Include="MTS_ChromeHistoryEmail\config.h" />
+    <ClInclude Include="MTS_ChromeHistoryEmail\exec.h" />
+    <ClInclude Include="MTS_ChromeHistoryEmail\sqlite\sqlite3.h" />
+    <ClInclude Include="MTS_ChromeHistoryEmail\sqlite\sqlite3ext.h" />
+    <ClInclude Include="MTS_ChromeHistoryEmail\sqlite\sqlite3rc.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
