@@ -63,6 +63,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_81B5C7DCB3631CFE0CD3543A2E55DDF0"
+        "OwnerKey" = "8:_AD2EC8D59CCE4CECB365D82BD8DFE15A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8771403182C9AE611E97A54C7DCD9FB4"
         "OwnerKey" = "8:_AD2EC8D59CCE4CECB365D82BD8DFE15A"
         "MsmSig" = "8:_UNDEFINED"
@@ -344,6 +350,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_81B5C7DCB3631CFE0CD3543A2E55DDF0"
+            {
+            "SourcePath" = "8:libcurl.dll"
+            "TargetName" = "8:libcurl.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_6336C00901804A638AFAC689CF7B6885"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8771403182C9AE611E97A54C7DCD9FB4"
             {
             "SourcePath" = "8:api-ms-win-crt-math-l1-1-0.dll"
@@ -522,15 +548,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MTS_HistoryReport"
-        "ProductCode" = "8:{A375C647-FA97-4505-82F8-2064E9DF5411}"
-        "PackageCode" = "8:{F8674044-905F-47D6-AFF9-C3B14B86A211}"
+        "ProductCode" = "8:{0808E658-DD56-45B3-A189-AF4F2D720FFE}"
+        "PackageCode" = "8:{2F93FAF3-EB1A-4EA6-B8B1-0554AD0FAA2A}"
         "UpgradeCode" = "8:{8BF96FF7-EFDF-4763-A5F7-80154F732C4D}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:ElderPerets"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -538,7 +564,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:dmytro.perets@missionary.org"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
+        "ARPCOMMENTS" = "8:Sends chrome browser history to the mission office email"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
