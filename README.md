@@ -19,7 +19,7 @@ pretty simple:)
    and read the code. Here are some tips:*
      - Use visual studio + windows
      - Install msi package extension
-     - The main code is in ```exec.cpp```::exec_() function
+     - The main code is in ```exec.cpp::exec_()``` function
      - If you want to change some things without changing
        the actual code (like adding another computer name mapping,
        or another email to send the report to) - go to ```config.h```
