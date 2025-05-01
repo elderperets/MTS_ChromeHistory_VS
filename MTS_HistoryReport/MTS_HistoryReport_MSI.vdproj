@@ -27,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_13E88161CD813EF5C329684A6245F5B4"
+        "OwnerKey" = "8:_AD2EC8D59CCE4CECB365D82BD8DFE15A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_1D6E392899E57421D4E36C06246AC907"
         "OwnerKey" = "8:_AD2EC8D59CCE4CECB365D82BD8DFE15A"
         "MsmSig" = "8:_UNDEFINED"
@@ -63,7 +69,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_81B5C7DCB3631CFE0CD3543A2E55DDF0"
+        "MsmKey" = "8:_830036184E15930F5309871121C167BD"
         "OwnerKey" = "8:_AD2EC8D59CCE4CECB365D82BD8DFE15A"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -175,6 +181,36 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_4BA36B0FF8314A5C8CB9E679FE94E1DA"
+            {
+            "Name" = "8:Primary Output from MTS_HistoryReport_EXE (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_AD2EC8D59CCE4CECB365D82BD8DFE15A"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:-msi"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_FE35A8B8_52ED_4A36_A5A7_B21B3E3A1375"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            "Run64Bit" = "11:TRUE"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_FB409387217D40E4A5770D0F806FE896"
+            {
+            "Name" = "8:Primary Output from MTS_HistoryReport_EXE (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_AD2EC8D59CCE4CECB365D82BD8DFE15A"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:-msi"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_E45CC5B9_24FD_47E0_9FD7_7C4E9B09B96F"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            "Run64Bit" = "11:TRUE"
+            }
         }
         "DefaultFeature"
         {
@@ -214,6 +250,26 @@
             {
             "SourcePath" = "8:VCRUNTIME140_1.dll"
             "TargetName" = "8:VCRUNTIME140_1.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_6336C00901804A638AFAC689CF7B6885"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_13E88161CD813EF5C329684A6245F5B4"
+            {
+            "SourcePath" = "8:api-ms-win-crt-filesystem-l1-1-0.dll"
+            "TargetName" = "8:api-ms-win-crt-filesystem-l1-1-0.dll"
             "Tag" = "8:"
             "Folder" = "8:_6336C00901804A638AFAC689CF7B6885"
             "Condition" = "8:"
@@ -350,7 +406,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_81B5C7DCB3631CFE0CD3543A2E55DDF0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_830036184E15930F5309871121C167BD"
             {
             "SourcePath" = "8:libcurl.dll"
             "TargetName" = "8:libcurl.dll"
@@ -548,22 +604,22 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MTS_HistoryReport"
-        "ProductCode" = "8:{0808E658-DD56-45B3-A189-AF4F2D720FFE}"
-        "PackageCode" = "8:{2F93FAF3-EB1A-4EA6-B8B1-0554AD0FAA2A}"
+        "ProductCode" = "8:{601D505E-6F9E-4AF7-9F39-02B9FE1BE821}"
+        "PackageCode" = "8:{DCF113DC-C67E-4CC7-A630-1734FD650E1F}"
         "UpgradeCode" = "8:{8BF96FF7-EFDF-4763-A5F7-80154F732C4D}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.1.0"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.2.0"
         "Manufacturer" = "8:ElderPerets"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
+        "ARPHELPLINK" = "8:mailto:dmytro.perets@missionary.org"
         "Title" = "8:MTS_HistoryReport"
         "Subject" = "8:"
         "ARPCONTACT" = "8:dmytro.perets@missionary.org"
-        "Keywords" = "8:"
+        "Keywords" = "8:mts"
         "ARPCOMMENTS" = "8:Sends chrome browser history to the mission office email"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
