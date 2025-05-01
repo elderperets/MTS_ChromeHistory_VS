@@ -17,9 +17,9 @@ pretty simple:)
      - Install the app
 5. *If you are a nerd and you know what you are doing you can clone this repo
    and read the code. Here are some tips:*
-     - Use visual studio + windows
-     - Install msi package extension
-     - The main code is in ```exec.cpp::exec_()``` function
-     - If you want to change some things without changing
-       the actual code (like adding another computer name mapping,
-       or another email to send the report to) - go to ```config.h```
+     - *Use visual studio + windows*
+     - *Install msi package extension*
+     - *The main code is in ```exec.cpp::exec_()``` function*
+     - *If you want to change some things without changing*
+       *the actual code (like adding another computer name mapping,*
+       *or another email to send the report to) - go to ```config.h```*
