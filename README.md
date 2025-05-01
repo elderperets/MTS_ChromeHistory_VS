@@ -28,3 +28,4 @@ pretty simple:)
      - *If you want to change some things without changing*
        *the actual code (like adding another computer name mapping,*
        *or another email to send the report to) - go to ```config.h```*
+     - ***To Clone the entire project you need to log into ```elderperets``` github account***
