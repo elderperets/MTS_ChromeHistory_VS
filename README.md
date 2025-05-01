@@ -15,7 +15,12 @@ pretty simple:)
      - delete ```000.timestamp```
      - delete ```MTSCrashLog.LOG```
      - Install the app
-5. *If you are a nerd and you know what you are doing you can clone this repo
+
+
+
+
+
+4. *If you are a nerd and you know what you are doing you can clone this repo
    and read the code. Here are some tips:*
      - *Use visual studio + windows*
      - *Install msi package extension*
