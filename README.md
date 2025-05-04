@@ -11,10 +11,10 @@ pretty simple:)
    called ```000.timestamp``` and ```MTSCrashLog.LOG```.
 2. Check mission office email - it should receive a history report.
 3. If something doesn't work:
-     - Uninstall the app
-     - delete ```000.timestamp```
-     - delete ```MTSCrashLog.LOG```
-     - Install the app
+    - Uninstall the app
+    - delete ```000.timestamp```
+    - delete ```MTSCrashLog.LOG```
+    - Install the app
 
 
 
@@ -22,10 +22,12 @@ pretty simple:)
 
 4. *If you are a nerd and you know what you are doing you can clone this repo
    and read the code. Here are some tips:*
-     - *Use visual studio + windows*
-     - *Install msi package extension*
-     - *The main code is in ```exec.cpp::exec_()``` function*
-     - *If you want to change some things without changing*
-       *the actual code (like adding another computer name mapping,*
-       *or another email to send the report to) - go to ```config.h```*
-     - ***To Clone the entire project you need to log into ```elderperets``` github account***
+    - *Use visual studio + windows*
+    - *Install msi package extension*
+    - *The main code is in ```exec.cpp::exec_()``` function*
+    - *If you want to change some things without changing*
+      *the actual code (like adding another computer name mapping,*
+      *or another email to send the report to) - go to ```config.h```*
+    - ***To Clone the entire project you need to log into ```elderperets``` github account***
+    - ***Warning:** the code is complicated*
+    - *And you can always contact Brother Perets to do it for you*
