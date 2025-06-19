@@ -22,7 +22,8 @@ pretty simple:)
 
 4. *If you are a nerd and you know what you are doing you can clone this repo
    and read the code. Here are some tips:*
-    - *Use visual studio + windows*
+    - *Use visual studio on windows*
+    - *Install libcurl (i did it through vcpkg manager)*
     - *Install msi package extension*
     - *The main code is in ```exec.cpp::exec_()``` function*
     - *If you want to change some things without changing*
@@ -30,4 +31,4 @@ pretty simple:)
       *or another email to send the report to) - go to ```config.h```*
     - ***To Clone the entire project you need to log into ```elderperets``` github account***
     - ***Warning:** the code is complicated*
-    - *And you can always contact Brother Perets to do it for you*
+    - *And you can always contact Brother Perets for any questions*
